@@ -46,10 +46,8 @@ export default function CreateNote(props) {
     setShow(false);
   };
 
- //boton cancelar debe limpiar el input de fecha y hora
+ //boton cancelar debe cerrar el datepicker
   const cancelDateTimePicker = () => {
-    setFecha('');
-    setHora('');
     setShow(false);
   };
 
