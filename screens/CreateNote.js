@@ -167,7 +167,7 @@ export default function CreateNote(props) {
               </View>
             )}
             <View>
-              <TouchableOpacity style={styles.botonEnviar} onPress={saveNote} >
+              <TouchableOpacity style={styles.button} onPress={saveNote} >
                 <Text style={styles.textoBtnEnviar}>Guardar</Text>
               </TouchableOpacity>
             </View>

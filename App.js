@@ -17,7 +17,7 @@ export default function App() {
           name="Notas"
           component={Notas}
           options={{
-            title: "NOTAS",
+            title: "NOTAS App",
             headerTitleAlign: "center",
             headerStyle: { backgroundColor: "#0496FF" },
             headerTintColor: "white",
