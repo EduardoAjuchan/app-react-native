@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "app-react",
+    "name": "NotitasApp",
     "slug": "app-react",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.edoajuchan.appreact"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ed38c48d-14d6-4894-a458-a673f394c5e0"
+      }
     }
   }
 }
